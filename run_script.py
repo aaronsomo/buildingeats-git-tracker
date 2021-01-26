@@ -3,7 +3,8 @@ import git
 from git_contributions_importer import *
 
 # Your private repo or Bitbucket repo
-repo = git.Repo("../../FanFood/fanfoodconsumer")
+repo = git.Repo("../../FanFood/building_eats")
+# repo = git.Repo("../../FanFood/fanfoodconsumer")
 # Your mock repo
 mock_repo = git.Repo("../buildingeats-git-tracker")
 importer = Importer([repo], mock_repo)
